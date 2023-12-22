@@ -8,6 +8,7 @@ export const LactAmor = () => {
                 <p className="LactAmor__header--Title">LactAmor</p>
                 <p className="LactAmor__header--Subtitle">ASESORÍA EN LACTANCIA MATERNA Y CUIDADO DEL BEBÉ</p>
             </div>
+
             <div className="LactAmor__noticias">
                 <div className="LactAmor__noticias--image">
                     <img src={Base} alt="noticias"></img>

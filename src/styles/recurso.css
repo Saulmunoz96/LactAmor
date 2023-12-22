@@ -10,7 +10,6 @@
     margin: 0;
     justify-content: center;
     align-items: center;
-
 }
 .recursos__container--div {
     grid-column: span 3;
@@ -52,7 +51,7 @@
     color: white;
     cursor: pointer;
     font-family: 'Cormorant Infant', serif;
-    font-size: 26px;
+    font-size: 1.35vw;
     text-decoration: none;
     text-align: center;
     margin: 5px;
@@ -68,7 +67,7 @@
     color: white;
     font-family: 'Questrial', sans-serif;
     text-decoration: none;
-    font-size: 20px
+    font-size: 1.04vw;
 }
 
 .recursos__container--div--div1--div2--icono img {
@@ -84,3 +83,85 @@
     margin: 0;
 }
 
+@media (max-width: 1366px) {
+    .recursos__container--div--title {
+        font-size: 1.9vw;
+    }
+    .recursos__container--div--div1--div1--text {
+        font-size: 1.46vw;
+    }
+}
+
+@media (max-width: 1280px) {
+    .recursos__container--div--title {
+        font-size: 2.03vw;
+    }
+    .recursos__container--div--div1--div1--text {
+        font-size: 1.56vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .recursos__container--div--title {
+        font-size: 2.54vw;
+    }
+    .recursos__container--div--div1--div1--text {
+        font-size: 1.95vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .recursos__container--div--title {
+        font-size: 2.44vw;
+    }
+    .recursos__container--div--div1--div1--text {
+        font-size: 2.2vw;
+    }
+    .recursos__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .recursos__container--div {
+        grid-column: span 2;
+    }
+}
+@media (max-width: 600px) {
+    .recursos__container--div--title {
+        font-size: 3.25vw;
+    }
+    .recursos__container--div--div1--div1--text {
+        font-size: 2.5vw;
+    }
+    .recursos__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .recursos__container--div {
+        grid-column: span 2;
+    }
+    .recursos__container--div--div1--div2--icono img {
+        display: none;
+    }
+    .recursos__container--div--div1 {
+        display: flex;
+    }
+}
+@media (max-width: 360px) {
+    .recursos__container--div--title {
+        font-size: 5.42vw;
+    }
+    .recursos__container--div--div1--div1--text {
+        font-size: 4.17vw;
+    }
+    .recursos__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .recursos__container--div {
+        grid-column: span 2;
+    }
+    .recursos__container--div--div1--div2--icono img {
+        display: none;
+    }
+    .recursos__container--div--div1 {
+        display: flex;
+    }
+
+}
